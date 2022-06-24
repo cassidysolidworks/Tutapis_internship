@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application - checkin</title>
+
+    <!--Bootstrap 4 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--Fontawesome icons-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    
+
+    <!--Owl carousel-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <!--AOS Library-->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!--Custom styling-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="wrapper">
+    <div class="container-fluid bg-dark app-banner"></div>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-12 text-center">
+                <img src="assets/img/core-img/tutapis_logo.png" class="img-fluid w-25 app-banner-logo">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 col-lg-2"></div>
+            <div class="col-sm-10 col-lg-8 my-5 bg-light form-container">
+                <form action="" class="p-3">
+                    <h5>Please select options below as applied to you. <b><i>Provide honest answers</i></b></h5>
+
+                    <h5><b>
+                        <div class="my-3">I have prior  programming knowledge.</div>
+                    </b></h5>
+                        <div>
+                            <input type="radio" name="pro-knwl" value="Yes" class="my-2"> Yes
+                            <br>
+                            <input type="radio" name="pro-knwl" value="No" class="my-2"> No
+                        </div>
+                    
+                    <h5><b>
+                        <div class="my-3">I have constant access to the internet</div>
+                    </b></h5>
+                        <div>
+                            <input type="radio" name="inter-access" value="strongly_agree" class="my-2"> Strongly agree
+                            <br>
+                            <input type="radio" name="inter-access" value="agree" class="my-2"> Agreement
+                            <br>
+                            <input type="radio" name="inter-access" value="disagree" class="my-2"> Disagree
+                            <br>
+                            <input type="radio" name="inter-access" value="strongly_disagree" class="my-2"> Strongly Disagree
+                        </div>
+                    
+                    <h5><b>
+                        <div class="my-3">I have constant access to a laptop or desktop computer devices</div>
+                    </b></h5>
+                        <div>
+                            <input type="radio" name="computer" value="Yes" class="my-2"> Yes
+                            <br>
+                            <input type="radio" name="computer" value="No" class="my-2"> No
+                        </div>
+
+
+                        <h5><b>
+                            <div class="my-3">I can commit atleast 5 hours a day or 30 hours a week to achieve my goal</div>
+                        </b></h5>
+                            <div>
+                                <input type="radio" name="five_hours_daily" value="strongly_agree" class="my-2"> Strongly agree
+                                <br>
+                                <input type="radio" name="five_hours_daily" value="agree" class="my-2"> Agreement
+                                <br>
+                                <input type="radio" name="five_hours_daily" value="disagree" class="my-2"> Disagree
+                                <br>
+                                <input type="radio" name="five_hours_daily" value="strongly_disagree" class="my-2"> Strongly Disagree
+                            </div>
+                    
+                        <h5><b>
+                            <div class="my-3">I will be committed to the programme, even when it's inconvenient, challenging, or does not serve me well.</div>
+                        </b></h5>
+                            <div>
+                                <input type="radio" name="committed" value="strongly_agree" class="my-2"> Strongly agree
+                                <br>
+                                <input type="radio" name="committed" value="agree" class="my-2"> Agreement
+                                <br>
+                                <input type="radio" name="committed" value="disagree" class="my-2"> Disagree
+                                <br>
+                                <input type="radio" name="committed" value="strongly_disagree" class="my-2"> Strongly Disagree
+                            </div>
+                    
+                        <h5><b>
+                            <div class="my-3">It has become part of me to always finish whatever I start, despite the challenges</div>
+                        </b></h5>
+                            <div>
+                                <input type="radio" name="always_finish" value="strongly_agree" class="my-2"> Strongly agree
+                                <br>
+                                <input type="radio" name="always_finish" value="agree" class="my-2"> Agreement
+                                <br>
+                                <input type="radio" name="always_finish" value="disagree" class="my-2"> Disagree
+                                <br>
+                                <input type="radio" name="always_finish" value="strongly_disagree" class="my-2"> Strongly Disagree
+                            </div>
+
+                        <h5><b>
+                            <div class="my-3">I am very serious about becoming a software engineer, this is my dream</div>
+                        </b></h5>
+                            <div>
+                                <input type="radio" name="is_serious" value="strongly_agree" class="my-2"> Strongly agree
+                                <br>
+                                <input type="radio" name="is_serious" value="agree" class="my-2"> Agreement
+                                <br>
+                                <input type="radio" name="is_serious" value="disagree" class="my-2"> Disagree
+                                <br>
+                                <input type="radio" name="is_serious" value="strongly_disagree" class="my-2"> Strongly Disagree
+                            </div>
+
+                        <h5><b>
+                            <div class="my-3">I am ready to engage intensively and take charge of my learning and growth</div>
+                        </b></h5>
+                            <div>
+                                <input type="radio" name="is_take_charge" value="strongly_agree" class="my-2"> Strongly agree
+                                <br>
+                                <input type="radio" name="is_take_charge" value="agree" class="my-2"> Agreement
+                                <br>
+                                <input type="radio" name="is_take_charge" value="disagree" class="my-2"> Disagree
+                                <br>
+                                <input type="radio" name="is_take_charge" value="strongly_disagree" class="my-2"> Strongly Disagree
+                            </div>
+
+
+                            <div class="row mt-5 mb-3">
+                                <div class="col-12 text-center">
+                                    <a href="app_form_essay.html" class="btn btn-primary text-light px-4">Next</a>
+                                </div>
+                            </div>
+                    
+
+
+                   
+                </form>
+
+            </div>
+            <div class="col-sm-1 col-lg-2"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Fontawesome js-->
+    <script src="assets/js/all.min.js"></script>
+
+    <!--jQuery js-->
+    <script src="assets/js/jQuery3.6.0.min.js"></script>
+
+    <!--Boostrap 4 js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!--Owl carousel js-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+     <!--AOS Library-->
+     <script src="assets/js/aos.js"></script>
+
+    <!--custom js-->
+    <script src="assets/js/script2.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

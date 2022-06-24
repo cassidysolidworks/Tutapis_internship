@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application - personal information</title>
+
+    <!--Bootstrap 4 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--Fontawesome icons-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    
+
+    <!--Owl carousel-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <!--AOS Library-->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!--Custom styling-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="wrapper">
+    <div class="container-fluid bg-dark app-banner"></div>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-12 text-center">
+                <img src="assets/img/core-img/tutapis_logo.png" class="img-fluid w-25 app-banner-logo">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 col-lg-2"></div>
+            <div class="col-sm-10 col-lg-8 my-5 bg-light form-container">
+                <form action="" class="p-3 app-form">
+                    <h5>Welcome to your application for the 12-month Tutapis internship programme.</h5>
+                    <h5>share your details and click next to get started</h5>
+
+                    <br>
+                   
+
+                    <h1>Personal Information</h1>
+                    <h5 class="text-secondary">Please provide your legal name</h5>
+
+                   <div class="row my-4">
+                    <div class="col-sm-12 col-lg-4">
+                        <label for="first_name"><b>First name <span class="text-danger">*</span></b></label>
+                        <input type="text" name="first_name" class="form-control"/>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <label for="middle_name"><b>Middle name </b><span>(Optional)</span></label>
+                        <input type="text" name="middle_name" class="form-control">
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <label for="last_name"><b>Last name <span class="text-danger">*</span></b></label>
+                        <input type="text" name="last_name" class="form-control">
+                    </div>
+                   </div>
+
+                   <div class="row mb-4">
+                    <div class="col-sm-12 col-md-4">
+                        <label for="gender"><b>Gender <span class="text-danger">*</span></b></label>
+                        <input type="text" name="gender" class="form-control">
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <label for="email"><b>Email <span class="text-danger">*</span></b></label>
+                        <input type="email" name="email" class="form-control">
+                    </div>
+                   </div>
+
+                   <label for="phone_no"><b>Phone number <span class="text-danger">*</span></b></label>
+                   <div class="row mb-4">
+                    <div class="col-sm-12 col-md-4">
+                        <select name="country_code" class="form-control">
+                            <option value="nigeria"> Nigeria +234</option>
+                            <option value="93">﻿Afghanistan - 93</option>
+                            <option value="355">Albania - 355</option>
+                            <option value="213">Algeria - 213</option>
+                            <option value="376">Andorra - 376</option>
+                            <option value="244">Angola - 244</option>
+                            <option value="1-264">Anguilla - 1-264</option>
+                            <option value="672">Antarctica - 672</option>
+                            <option value="1-268">Antigua &amp; Barbuda - 1-268</option>
+                            <option value="54">Argentina - 54</option>
+                            <option value="374">Armenia - 374</option>
+                            <option value="297">Aruba - 297</option>
+                            <option value="61">Australia - 61</option>
+                            <option value="43">Austria - 43</option>
+                            <option value="1-242">Bahamas - 1-242</option>
+                            <option value="994">Azerbaijan - 994</option>
+                            <option value="973">Bahrain - 973</option>
+                            <option value="880">Bangladesh - 880</option>
+                            <option value="375">Belarus - 375</option>
+                            <option value="32">Belgium - 32</option>
+                            <option value="501">Belize - 501</option>
+                            <option value="229">Benin - 229</option>
+                            <option value="975">Bhutan - 975</option>
+                            <option value="591">Bolivia - 591</option>
+                            <option value="387">Bosnia - 387</option>
+                            <option value="267">Botswana - 267</option>
+                            <option value="55">Brazil - 55</option>
+                            <option value="246">British Indian Ocean Territory - 246</option>
+                            <option value="673">Brunei - 673</option>
+                            <option value="359">Bulgaria - 359</option>
+                            <option value="226">Burkina Faso - 226</option>
+                            <option value="257">Burundi - 257</option>
+                            <option value="855">Cambodia - 855</option>
+                            <option value="237">Cameroon - 237</option>
+                            <option value="238">Cape Verde - 238</option>
+                            <option value="1-345">Cayman Islands - 1-345</option>
+                            <option value="236">Central African Republic - 236</option>
+                            <option value="235">Chad - 235</option>
+                            <option value="56">Chile - 56</option>
+                            <option value="86">China - 86</option>
+                            <option value="57">Colombia - 57</option>
+                            <option value="269">Comoros - 269</option>
+                            <option value="242">Congo - Brazzaville - 242</option>
+                            <option value="243">Congo - Kinshasa - 243</option>
+                            <option value="682">Cook Islands - 682</option>
+                            <option value="506">Costa Rica - 506</option>
+                            <option value="385">Croatia - 385</option>
+                            <option value="53">Cuba - 53</option>
+                            <option value="599">Curaçao - 599</option>
+                            <option value="357">Cyprus - 357</option>
+                            <option value="420">Czech Republic - 420</option>
+                            <option value="225">Côte d&#039;Ivoire - 225</option>
+                            <option value="45">Denmark - 45</option>
+                            <option value="253">Djibouti - 253</option>
+                            <option value="1-767">Dominica - 1-767</option>
+                            <option value="593">Ecuador - 593</option>
+                            <option value="20">Egypt - 20</option>
+                            <option value="503">El Salvador - 503</option>
+                            <option value="240">Equatorial Guinea - 240</option>
+                            <option value="291">Eritrea - 291</option>
+                            <option value="372">Estonia - 372</option>
+                            <option value="251">Ethiopia - 251</option>
+                            <option value="500">Falkland Islands - 500</option>
+                            <option value="298">Faroe Islands - 298</option>
+                            <option value="679">Fiji - 679</option>
+                            <option value="358">Finland - 358</option>
+                            <option value="33">France - 33</option>
+                            <option value="594">French Guiana - 594</option>
+                            <option value="689">French Polynesia - 689</option>
+                            <option value="241">Gabon - 241</option>
+                            <option value="220">Gambia - 220</option>
+                            <option value="995">Georgia - 995</option>
+                            <option value="49">Germany - 49</option>
+                            <option value="233">Ghana - 233</option>
+                            <option value="350">Gibraltar - 350</option>
+                            <option value="30">Greece - 30</option>
+                            <option value="299">Greenland - 299</option>
+                            <option value="1-473">Grenada - 1-473</option>
+                            <option value="590">Guadeloupe - 590</option>
+                            <option value="1-671">Guam - 1-671</option>
+                            <option value="502">Guatemala - 502</option>
+                            <option value="224">Guinea - 224</option>
+                            <option value="245">Guinea-Bissau - 245</option>
+                            <option value="592">Guyana - 592</option>
+                            <option value="509">Haiti - 509</option>
+                            <option value="504">Honduras - 504</option>
+                            <option value="852">Hong Kong - 852</option>
+                            <option value="36">Hungary - 36</option>
+                            <option value="354">Iceland - 354</option>
+                            <option value="91">India - 91</option>
+                            <option value="62">Indonesia - 62</option>
+                            <option value="98">Iran - 98</option>
+                            <option value="964">Iraq - 964</option>
+                            <option value="353">Ireland - 353</option>
+                            <option value="972">Israel - 972</option>
+                            <option value="39">Italy - 39</option>
+                            <option value="1-876">Jamaica - 1-876</option>
+                            <option value="81">Japan - 81</option>
+                            <option value="962">Jordan - 962</option>
+                            <option value="254">Kenya - 254</option>
+                            <option value="686">Kiribati - 686</option>
+                            <option value="965">Kuwait - 965</option>
+                            <option value="996">Kyrgyzstan - 996</option>
+                            <option value="856">Laos - 856</option>
+                            <option value="371">Latvia - 371</option>
+                            <option value="961">Lebanon - 961</option>
+                            <option value="266">Lesotho - 266</option>
+                            <option value="231">Liberia - 231</option>
+                            <option value="218">Libya - 218</option>
+                            <option value="423">Liechtenstein - 423</option>
+                            <option value="370">Lithuania - 370</option>
+                            <option value="352">Luxembourg - 352</option>
+                            <option value="853">Macau - 853</option>
+                            <option value="389">Macedonia - 389</option>
+                            <option value="261">Madagascar - 261</option>
+                            <option value="265">Malawi - 265</option>
+                            <option value="60">Malaysia - 60</option>
+                            <option value="960">Maldives - 960</option>
+                            <option value="223">Mali - 223</option>
+                            <option value="356">Malta - 356</option>
+                            <option value="692">Marshall Islands - 692</option>
+                            <option value="596">Martinique - 596</option>
+                            <option value="222">Mauritania - 222</option>
+                            <option value="230">Mauritius - 230</option>
+                            <option value="52">Mexico - 52</option>
+                            <option value="691">Micronesia - 691</option>
+                            <option value="373">Moldova - 373</option>
+                            <option value="377">Monaco - 377</option>
+                            <option value="976">Mongolia - 976</option>
+                            <option value="382">Montenegro - 382</option>
+                            <option value="1-664">Montserrat - 1-664</option>
+                            <option value="212">Morocco - 212</option>
+                            <option value="258">Mozambique - 258</option>
+                            <option value="95">Myanmar - 95</option>
+                            <option value="264">Namibia - 264</option>
+                            <option value="674">Nauru - 674</option>
+                            <option value="977">Nepal - 977</option>
+                            <option value="31">Netherlands - 31</option>
+                            <option value="687">New Caledonia - 687</option>
+                            <option value="64">New Zealand - 64</option>
+                            <option value="505">Nicaragua - 505</option>
+                            <option value="227">Niger - 227</option>
+                            <option value="234">Nigeria - 234</option>
+                            <option value="683">Niue - 683</option>
+                            <option value="47">Norway - 47</option>
+                            <option value="968">Oman - 968</option>
+                            <option value="92">Pakistan - 92</option>
+                            <option value="680">Palau - 680</option>
+                            <option value="970">Palestine - 970</option>
+                            <option value="507">Panama - 507</option>
+                            <option value="675">Papua New Guinea - 675</option>
+                            <option value="595">Paraguay - 595</option>
+                            <option value="51">Peru - 51</option>
+                            <option value="63">Philippines - 63</option>
+                            <option value="870">Pitcairn Islands - 870</option>
+                            <option value="48">Poland - 48</option>
+                            <option value="351">Portugal - 351</option>
+                            <option value="974">Qatar - 974</option>
+                            <option value="40">Romania - 40</option>
+                            <option value="7">Russia/Kazakhstan - 7</option>
+                            <option value="250">Rwanda - 250</option>
+                            <option value="262">Réunion - 262</option>
+                            <option value="685">Samoa - 685</option>
+                            <option value="378">San Marino - 378</option>
+                            <option value="966">Saudi Arabia - 966</option>
+                            <option value="221">Senegal - 221</option>
+                            <option value="248">Seychelles - 248</option>
+                            <option value="232">Sierra Leone - 232</option>
+                            <option value="65">Singapore - 65</option>
+                            <option value="421">Slovakia - 421</option>
+                            <option value="386">Slovenia - 386</option>
+                            <option value="677">Solomon Islands - 677</option>
+                            <option value="252">Somalia - 252</option>
+                            <option value="27">South Africa - 27</option>
+                            <option value="82">South Korea - 82</option>
+                            <option value="211">South Sudan - 211</option>
+                            <option value="34">Spain - 34</option>
+                            <option value="94">Sri Lanka - 94</option>
+                            <option value="290 n">St. Helena - 290 n</option>
+                            <option value="1-869">St. Kitts &amp; Nevis - 1-869</option>
+                            <option value="1-758">St. Lucia - 1-758</option>
+                            <option value="508">St. Pierre &amp; Miquelon - 508</option>
+                            <option value="1-784">St. Vincent &amp; Grenadines - 1-784</option>
+                            <option value="249">Sudan - 249</option>
+                            <option value="597">Suriname - 597</option>
+                            <option value="268">Swaziland - 268</option>
+                            <option value="46">Sweden - 46</option>
+                            <option value="41">Switzerland - 41</option>
+                            <option value="963">Syria - 963</option>
+                            <option value="239">Sao Tome and Principe - 239</option>
+                            <option value="886">Taiwan - 886</option>
+                            <option value="992">Tajikistan - 992</option>
+                            <option value="255">Tanzania - 255</option>
+                            <option value="66">Thailand - 66</option>
+                            <option value="670">Timor-Leste - 670</option>
+                            <option value="228">Togo - 228</option>
+                            <option value="690">Tokelau - 690</option>
+                            <option value="676">Tonga - 676</option>
+                            <option value="1-868">Trinidad &amp; Tobago - 1-868</option>
+                            <option value="216">Tunisia - 216</option>
+                            <option value="90">Turkey - 90</option>
+                            <option value="993">Turkmenistan - 993</option>
+                            <option value="1-649">Turks &amp; Caicos Islands - 1-649</option>
+                            <option value="688">Tuvalu - 688</option>
+                            <option value="1-340">U.S. Virgin Islands - 1-340</option>
+                            <option value="44">UK - 44</option>
+                            <option value="256">Uganda - 256</option>
+                            <option value="380">Ukraine - 380</option>
+                            <option value="971">United Arab Emirates - 971</option>
+                            <option value="598">Uruguay - 598</option>
+                            <option value="1">U.S. / Canada / Puerto Rico - 1</option>
+                            <option value="998">Uzbekistan - 998</option>
+                            <option value="678">Vanuatu - 678</option>
+                            <option value="58">Venezuela - 58</option>
+                            <option value="84">Vietnam - 84</option>
+                            <option value="681">Wallis &amp; Futuna - 681</option>
+                            <option value="967">Yemen - 967</option>
+                            <option value="260">Zambia - 260</option>
+                            <option value="263">Zimbabwe - 263</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <small>Please select your country code </small>
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <input type="text" name="phone_no" class="form-control" />
+                        <small>Please enter the rest of your phone number, not including country code</small>
+                    </div>
+                   </div>
+
+                   <div class="row mb-4 mt-2">
+                    <div class="col-12 col-md-6">
+                        <label for="dob"><b>Date Of Birth <span class="text-danger">*</span></b></label>
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                <select name="day" class="form-control">
+                                    <option value="">DD</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                            </div>
+                            <div class="col-4 text-center">
+                                <select name="month" class="form-control">
+                                    <option value="">MM</option>
+                                    <option value="jan">Jan.</option>
+                                    <option value="feb">Feb.</option>
+                                    <option value="mar">Mar.</option>
+                                    <option value="apr">Apr.</option>
+                                    <option value="may">May</option>
+                                    <option value="jun">Jun.</option>
+                                    <option value="jul">Jul.</option>
+                                    <option value="aug">Aug.</option>
+                                    <option value="sep">Sep.</option>
+                                    <option value="oct">Oct.</option>
+                                    <option value="nov">Nov.</option>
+                                    <option value="dec">Dec.</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="col-4 text-center">
+                                <select name="year" class="form-control">
+                                    <option value="">YYYY</option>
+                                    <option value="1976">1976</option>
+                                    <option value="1977">1977</option>
+                                    <option value="1978">1978</option>
+                                    <option value="1979">1979</option>
+                                    <option value="1980">1980</option>
+                                    <option value="1981">1981</option>
+                                    <option value="1982">1982</option>
+                                    <option value="1983">1983</option>
+                                    <option value="1984">1984</option>
+                                    <option value="1985">1985</option>
+                                    <option value="1986">1986</option>
+                                    <option value="1987">1987</option>
+                                    <option value="1988">1988</option>
+                                    <option value="1989">1989</option>
+                                    <option value="1990">1990</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1993">1993</option>
+                                    <option value="1994">1994</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1999">1999</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2006">2006</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="program"><b>Program <span class="text-danger">*</span></b></label>
+                       <div class="row">
+                        <div class="col-12">
+                            <select name="program" class="form-control">
+                                <option value=""></option>
+                                <option value="Web Dev.">Web Development</option>
+                                <option value="Mobile App Dev.">Mobile App Development</option>
+                            </select>
+                        </div>
+                       </div>
+                    </div>
+                   </div>
+
+                   <div class="row mb-4">
+                    <div class="col-12 col-md-6">
+                        <label for="country_of_origin"><b>Country of Origin <span class="text-danger">*</span></b></label>
+                        <input type="text" name="country_of_origin" class="form-control">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="country_of_residence"><b>Country of Residence <span class="text-danger">*</span></b></label>
+                        <input type="text" name="country_of_residence" class="form-control">
+                    </div>
+                   </div>
+
+
+                   <div class="row mb-4">
+                    <div class="col-12 col-md-6">
+                        <label for="city_of_residence"><b>City of Residence <span class="text-danger">*</span></b></label>
+                        <input type="text" name="city_of_residence" class="form-control">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="street_address"><b>Street Address <span class="text-danger">*</span></b></label>
+                        <input type="text" name="street_address" class="form-control">
+                    </div>
+                   </div>
+
+                   <input type="checkbox" name="agreement"> I certify that I’m going to perform the entire selection process by myself,
+                    and that I won’t share answers with other applicants.
+                   <br><br>
+
+                   <input type="checkbox" name="agreement"> I agree to my email, phone number and address being stored and used to receive 
+                   automated communications around my application process.
+                   <br><br>
+
+                   <input type="checkbox" name="agreement"> I understand that I may receive marketing information from The Room and hereby
+                    consent to The Room sending me communications relating to The Room's product, services and activities. I am aware that
+                     it is entirely optional to receive these communications and I can opt out at any time.
+
+
+
+                     <div class="row my-5 pt-3">
+                        <div class="col-12 text-center">
+                            <a href="app_form_checkin.html" class="btn btn-primary px-4">Next</a>
+                        </div>
+                     </div>
+                </form>
+
+            </div>
+            <div class="col-sm-1 col-lg-2"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Fontawesome js-->
+    <script src="assets/js/all.min.js"></script>
+
+    <!--jQuery js-->
+    <script src="assets/js/jQuery3.6.0.min.js"></script>
+
+    <!--Boostrap 4 js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!--Owl carousel js-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+     <!--AOS Library-->
+     <script src="assets/js/aos.js"></script>
+
+    <!--custom js-->
+    <script src="assets/js/script2.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
